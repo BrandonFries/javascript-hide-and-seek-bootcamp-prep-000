@@ -5,8 +5,10 @@ function nestedTarget() {
   return document.getElementById('nested').querySelector('div.target')
 }
 function increaseRankBy(n) {
-  var increaseRank = parseInt(n)
-  if (ranked-list(increaseRank)) {return 4}
-  return increaseRank
-
+  let list = document.querySelectorAll('.ranked-list > li');
+  for (let i = 0; i < list.length; i ++) {
+    let b = list[i];
+    n.innerHTML = parseInt(current.innerhtml) + n;
+  }
+  
 }
