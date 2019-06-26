@@ -10,5 +10,5 @@ function increaseRankBy(n) {
     let b = list[i];
     n.innerHTML = parseInt(current.innerhtml) + n;
   }
-  
+
 }
