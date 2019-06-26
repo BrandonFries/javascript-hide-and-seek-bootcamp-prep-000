@@ -1,3 +1,4 @@
 function getFirstSelector(selector) {
-  return [0]
+  if (selector = 0)
+  return "nested"
 }
